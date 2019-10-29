@@ -1,13 +1,13 @@
-let spaceship = {
-    passengers: [{name: 'Space Dog'}], 
-    telescope: {
-      yearBuilt: 2018,
+let spaceship = {//object 
+    passengers: [{name: 'Space Dog'}], //pod objekt
+    telescope: {//pod pod objekt
+      yearBuilt: 2018,//clenoi na objekt
       model: "91031-XLT",
       focalLength: 2032 
     },
-    crew: {
-      captain: { 
-        name: 'Sandra', 
+    crew: {//objekt
+      captain: { //pod objekt
+        name: 'Sandra', //clenovi na objekt
         degree: 'Computer Engineering', 
         encourageTeam() { console.log('We got this!') },
        'favorite foods': ['cookies', 'cakes', 'candy', 'spinach'] }
