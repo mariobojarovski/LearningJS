@@ -3,7 +3,7 @@ const robot = {
     checkEnergy() {
       console.log(`Energy is currently at ${robot.energyLevel}%.`)
     }
-  }
+  };
   
   robot.checkEnergy();
   

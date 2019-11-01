@@ -10,13 +10,15 @@ const robot = {
       }
     },
     set numOfSensors(num) {
-      if (typeof num === 'number' && num >= 0){
+      if (typeof num === 'string' ){
         this._numOfSensors = num;
+        console.log(num);
       } else {
         console.log('Pass in a number that is greater than or equal to 0')
       }   
     } 
   };
   
-  //robot.numOfSensors = 100;
+  robot.numOfSensors = "sto";
+
   console.log(robot.numOfSensors);
