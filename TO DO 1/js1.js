@@ -11,8 +11,9 @@ function pushData()
     print(myArr); 
 }
 // BUTTON
+/*
 function createButton(inputText) {
-    //index();
+    /index();
         let btn = document.createElement("BUTTON");
         btn.innerHTML = "x";
         btn.index =i;

@@ -8,7 +8,7 @@ function PD()
         for(let j=0;j<2;i++){
                 a[i][1]=inputText   ;
                 a[0][j]=createButton;
-            
+            console.log(a[i][j])
         }
      }
      
